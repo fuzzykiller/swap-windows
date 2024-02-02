@@ -1,0 +1,16 @@
+[package]
+name = "SwapWindows"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dependencies.windows]
+version = "0.51.0"
+features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Dwm",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_UI_WindowsAndMessaging",
+]
